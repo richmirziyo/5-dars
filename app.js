@@ -137,5 +137,23 @@ function ikkitaSon(x, y) {
   return x + y < 100;
 }
 
-//20 misol 
+//20 misol
+function printArray(n) {
+  let array = [];
+  for (let i = 1; i <= n; i++) {
+    array.push(i);
+  }
+  return array;
+}
+
+printArray(6);
+
+// 21 misol
+
+function oyoqlar(tovuq, qoy, sigir) {
+  return tovuq * 2 + qoy * 4 + sigir * 4;
+}
+
+oyoqlar(3, 5, 2);
+
 
