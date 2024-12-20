@@ -118,4 +118,24 @@ function ichkiBurchaklar(n) {
 
 ichkiBurchaklar(4);
 
+// 17 misol
+
+function ochkolar(x, y) {
+  return x * 2 + y * 3;
+}
+
+//18 misol
+
+function string(n) {
+  return "Hello" + n;
+}
+
+string("salom");
+
+// 19 misol
+function ikkitaSon(x, y) {
+  return x + y < 100;
+}
+
+//20 misol 
 
