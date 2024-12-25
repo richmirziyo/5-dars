@@ -156,4 +156,61 @@ function oyoqlar(tovuq, qoy, sigir) {
 
 oyoqlar(3, 5, 2);
 
+//22 misol
+
+function and(true1, false1) {
+  return true1 && false1;
+}
+
+//23 misol
+
+function tengMi(x, y) {
+  return x === y;
+}
+
+tengMi(4, 8);
+
+//24 misol
+
+function futbolOchko(yutishlar, duranglar, maglubiyatlar) {
+  return yutishlar * 3 + duranglar * 1 + maglubiyatlar * 0;
+}
+
+// 25 misol
+
+function sekundlar(soat, minut) {
+  return soat * 3600 + minut * 60;
+}
+
+sekundlar(1, 3);
+
+// 26 misol
+
+function fun(number) {
+  if (number < 2) return false;
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) return false;
+  }
+  return true;
+}
+
+// 27 misol
+
+function tengMi(x, y) {
+  return x === y;
+}
+
+// 28 misol
+
+function booleanToString(bool) {
+  return bool.toString();
+}
+
+// 29 misol
+
+function Funk(value) {
+  return value;
+}
+
+// 30 misol 
 
