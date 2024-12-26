@@ -212,5 +212,57 @@ function Funk(value) {
   return value;
 }
 
-// 30 misol 
+// 30 misol
+function frameSoni(minut, frame) {
+  let sekundlar = minut * 60;
+  let jamiFramlar = sekundlar * frame;
 
+  return jamiFramlar;
+}
+
+// 31
+
+function calc(str) {
+  try {
+    let result = eval(str);
+    return result;
+  } catch (error) {
+    return "Xatolik: Noto'g'ri ifoda";
+  }
+}
+
+// 32
+
+function teng10(son1, son2) {
+  if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
+    return true;
+  }
+  return false;
+}
+
+// 33
+
+function teng10(son1, son2) {
+  if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
+    return true;
+  }
+
+  return false;
+}
+
+// 34
+
+function fun(son1, son2) {
+  return son1 > son2 ? son1 : son2;
+}
+
+// 35
+
+function arr(x, y) {
+  return [x, y];
+}
+
+// 36
+function tengStrings(str1, str2) {
+  return str1.length === str2.length;
+}
