@@ -157,100 +157,94 @@ function oyoqlar(tovuq, qoy, sigir) {
 oyoqlar(3, 5, 2);
 
 //22 misol
-
-function and(true1, false1) {
-  return true1 && false1;
+function  (true1, false1) {
+return true1 && false1;
 }
 
 //23 misol
 
-function tengMi(x, y) {
-  return x === y;
+function tengMi (x,y){
+  return x == y;
 }
 
-tengMi(4, 8);
+ //24 misol
 
-//24 misol
-
-function futbolOchko(yutishlar, duranglar, maglubiyatlar) {
+function futbolOchko(yutishlar, duranglar, maglubiyatlar){
   return yutishlar * 3 + duranglar * 1 + maglubiyatlar * 0;
 }
 
+
 // 25 misol
 
-function sekundlar(soat, minut) {
+function sekundlar (soat, minut) {
   return soat * 3600 + minut * 60;
 }
 
 // 26 misol
 
-function fun(number) {
+function fun (number) {
   if (number < 2) return false;
+
   for (let i = 2; i < number; i++) {
-    if (number % i === 0) return false;
+    if (number % i == 0) return false;
   }
-  return true;
+   return true
 }
 
 // 27 misol
 
-function tengMi(x, y) {
-  return x === y;
-}
+ function tengMi(x, y) {
+   return x === y;
+ }
 
 // 28 misol
 
-function booleanToString(bool) {
-  return bool.toString();
+function booleanToString(bool){
+  return bool.booleanToString();
 }
 
 // 29 misol
 
-function Funk(value) {
-  return value;
+
+function Funk (value) {
+  return value
 }
 
-// 30 misol
-function frameSoni(minut, frame) {
+ // 30 misol
+
+ function frameSoni (minut,frame) {
   let sekundlar = minut * 60;
   let jamiFramlar = sekundlar * frame;
 
-  return jamiFramlar;
-}
+  return jamiFramlar
+ }
 
-// 31
+ // 31
 
-function calc(str) {
+function calc (number) {
+
   try {
-    let result = eval(str);
+    let result = eval (number);
     return result;
   } catch (error) {
-    return "Xatolik: Noto'g'ri ifoda";
+    return "Noto'g'ri"
   }
 }
 
 // 33
 
-  if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
-    return true;
-  }
+function teng10(son1, son2) {
+   if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
+     return true;
+   }
 
-  return false;
-}
+   return false;
+ }
 
 // 34
 
-function fun(son1, son2) {
-  return son1 > son2 ? son1 : son2;
-}
+ function fun(son1, son2) {
+   return son1 > son2 ? son1 : son2;
+ };
 
-// 35
 
-function arr(x, y) {
-  return [x, y];
-}
-
-// 36
-function tengStrings(str1, str2) {
-  return str1.length === str2.length;
-}
