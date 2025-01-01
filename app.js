@@ -182,8 +182,6 @@ function sekundlar(soat, minut) {
   return soat * 3600 + minut * 60;
 }
 
-sekundlar(1, 3);
-
 // 26 misol
 
 function fun(number) {
@@ -231,18 +229,8 @@ function calc(str) {
   }
 }
 
-// 32
-
-function teng10(son1, son2) {
-  if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
-    return true;
-  }
-  return false;
-}
-
 // 33
 
-function teng10(son1, son2) {
   if (son1 === 10 || son2 === 10 || son1 + son2 === 10) {
     return true;
   }
